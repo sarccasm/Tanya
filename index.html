@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Анімація серця з текстом</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .heart-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .heart {
+      font-size: 100px;
+      color: red;
+      animation: pulse 1s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .text {
+      margin-top: 20px;
+      font-size: 24px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="heart-container">
+    <div class="heart">&#10084;</div>
+    <div class="text">Я тебе люблю, Танюшка. Вибач, якщо тобі не подобається щось, але я стараюсь зробити все, щоб ти була щаслива. Ти найкраща, знай це.</div>
+    <img src="imagw2.jpg" alt="Картинка">
+  </div>
+</body>
+</html>

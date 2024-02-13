@@ -1,0 +1,9 @@
+.heart {
+    font-size: 50px;
+    color: red;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .beat {
+    transform: scale(1.2);
+  }
